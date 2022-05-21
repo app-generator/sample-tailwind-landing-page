@@ -2,7 +2,7 @@
 
 All the sample code for the written blog article [Everything Important About Tailwind CSS](https://#) - Provided by `AppSeed`.
 
-The article explains how to use Bootstrap 5 by building a landing page and also a dashboard layout. The website will be built with Bootstrap 5 using HTML and CSS.
+The article explains how to use Tailwind CSS by building a landing page and also a dashboard layout. The website will be built with Tailwind CSS using HTML.
 
 - [Tailwind CSS Landing Page](https://#) - Preview
 
