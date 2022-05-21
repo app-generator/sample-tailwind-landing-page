@@ -1,0 +1,116 @@
+<!-- Tutorial made by Rene-F | 2022 | https://github.com/Rene-F -->
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/dist/output.css">
+  <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+  <title>Landing Page</title>
+</head>
+<body class="">
+
+<!-- Navbar Start -->
+<nav class="flex items-center justify-between flex-wrap bg-black p-6 fixed w-full z-10 top-0 font-bold">
+  <div class="flex items-center flex-shrink-0 text-white mr-6">
+    <a class="text-white no-underline" href="#">
+      <span class="text-xl pl-2">Brand Name</span>
+    </a>
+  </div>
+
+  <div class="block lg:hidden">
+    <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-white hover:border-white">
+      <svg class="fill-current h-3 w-3" viewBox="0 0 20 20"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+    </button>
+  </div>
+
+  <div class="font-bold w-full flex-grow lg:flex lg:items-center lg:w-auto hidden pt-6 lg:pt-0" id="nav-content">
+    <ul class="list-reset lg:flex justify-end flex-1 items-center">
+      <li class="mr-3">
+        <a class="inline-block py-2 px-2 text-white no-underline" href="#">Home</a>
+      </li>
+      <li class="mr-3">
+        <a class="inline-block text-gray-500 no-underline hover:text-gray-200 hover:text-underline py-2 px-2" href="#">Features</a>
+      </li>
+      <li class="mr-3">
+        <a class="inline-block text-gray-500 no-underline hover:text-gray-200 hover:text-underline py-2 px-2" href="#">Pricing</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+<!-- Landing Page content Start -->
+  <div class="bg-[url('/img/background.jpg')] table h-full w-full relative bg-cover">
+    <div class="table-cell text-center align-middle font-bold text-white text-4xl">
+      <h1 class="uppercase">Tailwind CSS</h1>
+      <h3 class="p-4">Code a Landing Page with Tailwind</h3>
+      <button class="text-2xl bg-zinc-800 hover:bg-zinc-900 rounded-md text-white px-4 py-2">Get Started</button>
+    </div>
+  </div>
+
+<!-- Two Column Section Start -->
+<div class="items-center sm:columns-1 md:columns-1 lg:columns-2 xl:columns-2 py-10 px-10">
+  <img src="/img/features.png" alt="" class="py-6 w-full">
+  <h2 class="font-semibold text-2xl text-center">
+    Everything Important About Tailwind CSS
+  </h2>
+  <p class="text-center pb-4 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit tenetur, maiores, enim consequatur saepe, odio ratione accusamus maxime ex debitis ipsum? Vero excepturi deserunt minima vel pariatur impedit voluptas provident!</p>
+  <p class="text-center text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aut voluptate asperiores quis nisi similique, nesciunt, labore quae placeat sapiente id ipsam ab laudantium eaque incidunt accusamus perspiciatis, laborum consectetur!</p>
+</div>
+<!-- Two Column Section End -->
+
+<!-- Four Column Section Start -->
+<div class="items-center sm:columns-1 md:columns-2 lg:columns-4 xl:columns-4 py-10 px-10">
+  <h4 class="font-bold text-2xl">Built with HTML</h4>
+  <p class="text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, cum! Omnis inventore saepe, nemo quas voluptatibus quo consequatur asperiores ipsam eius laborum? Esse laudantium corrupti ab, quos sint repellendus aspernatur!</p>
+  <h4 class="font-bold text-2xl">Built with CSS</h4>
+  <p class="text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, cum! Omnis inventore saepe, nemo quas voluptatibus quo consequatur asperiores ipsam eius laborum? Esse laudantium corrupti ab, quos sint repellendus aspernatur!</p>
+  <h4 class="font-bold text-2xl">Fast Development</h4>
+  <p class="text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, cum! Omnis inventore saepe, nemo quas voluptatibus quo consequatur asperiores ipsam eius laborum? Esse laudantium corrupti ab, quos sint repellendus aspernatur!</p>
+  <h4 class="font-bold text-2xl">Great Community</h4>
+  <p class="text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, cum! Omnis inventore saepe, nemo quas voluptatibus quo consequatur asperiores ipsam eius laborum? Esse laudantium corrupti ab, quos sint repellendus aspernatur!</p>
+</div>
+<!-- Four Column Section End -->
+  
+<!-- Fixed Background Start -->
+<div class="bg-[url('/img/background2.png')] h-3/5 w-full bg-no-repeat sm:bg-cover sm:bg-fixed md:bg-cover md:bg-fixed lg:bg-cover lg:bg-fixed xl:bg-cover xl:bg-fixed"></div>
+<!-- Fixed Background End -->
+  
+<!-- Footer Start -->
+<footer>
+  <div class="justify-between w-full bg-black text-white items-center text-center py-10 px-10 font-bold text-2xl sm:columns-1 md:columns-2 lg:columns-3 xl:columns-3">
+    <div class="py-10 px-2">
+      <h3 class="py-2">Contact Us</h3>
+      <h4>Our address and contact info here.</h4>
+    </div>
+    <div class="py-10 px-2">
+      <h3 class="py-2">Connect with us</h3>
+          <a href="#" class="fa fa-facebook px-2"></a>
+          <a href="#" class="fa fa-twitter px-2"></a>
+          <a href="#" class="fa fa-google px-2"></a>
+          <a href="#" class="fa fa-youtube px-2"></a>
+    </div>
+    <div class="py-10 px-2">
+      <img src="/img/b.png" class="h-32">
+    </div>
+  </div>
+</footer>
+<!-- Footer End -->
+
+<!-- Javascript Start -->
+<script>
+  //Javascript to toggle the menu
+  document.getElementById('nav-toggle').onclick = function(){
+    document.getElementById("nav-content").classList.toggle("hidden");
+  }
+</script>
+<!-- Javascript End -->
+
+<!-- Landing Page content End -->
+
+</body>
+</html>
+
+<!-- Tutorial made by Rene-F | 2022 | https://github.com/Rene-F -->
