@@ -8,12 +8,45 @@ The article explains how to use Tailwind CSS by building a landing page and also
 
 <br />
 
-## How to use it 
+## How to use this example
 
 - Download the files
 - Open src folder
 - Open index.html in a code editor, if needed make some changes
 - Double click index.html to open it in a web browser and see your changes.
+
+<br />
+
+## How to start your own project when following the tutorial
+- Install Node.js.
+- Open VSCode and your project folder inside it.
+- Open Terminal inside VSCode
+- Install Tailwind globally with:
+<code>npm install -D tailwindcss</code>
+- Create your tailwind.config.js file:
+<code>npx tailwindcss init</code>
+- Open tailwind.config.js and inside the content brackets, add this:
+<code>"./src/**/*.{html,js}"</code>
+- Create a src folder to your directory
+- Inside src folder create index.html and input.css files
+- Open input.css and paste this inside it:
+<code>@tailwind base;
+@tailwind components;
+@tailwind utilities;</code>
+- Close your config and css files
+- Inside terminal paste this:
+<code>npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch</code>
+This makes sure that when we change our css file it will output the same thing to a compiled css file.
+And --watch makes the changes update in real time
+- Inside index.html, copy and paste this sample HTML code from this link:
+[Tailwind CSS Get Started Sample HTML Code](https://tailwindcss.com/docs/installation)
+- Add a helpful extension inside VSCode called Tailwind CSS IntelliSense
+
+<br />
+
+## Tailwind.config.js
+This file is used when you want to change fonts or add custom colors, etc.
+You don't have to worry about it by default.
 
 <br />
 
