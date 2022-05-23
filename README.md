@@ -11,7 +11,8 @@ The article explains how to use Tailwind CSS by building a landing page and also
 ## How to use it 
 
 - Download the files
-- Open up index.html in a code editor, if needed make some changes
+- Open src folder
+- Open index.html in a code editor, if needed make some changes
 - Double click index.html to open it in a web browser and see your changes.
 
 <br />
